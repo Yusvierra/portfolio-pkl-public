@@ -3101,14 +3101,14 @@ section::before {
 .hero .container, 
 #home .container,
 .hero-container {
-    max-width: 980px !important;  /* Ukuran ramping agar konten tertarik masuk */
+    max-width: 980px !important;
     width: 100% !important;
     margin: 0 auto !important;
     padding: 0 20px !important;
     display: flex !important;
     align-items: center !important;
-    justify-content: center !important; /* Paksa kedua kolom berkumpul di tengah */
-    gap: 40px !important;              /* Jarak antar kolom teks dan kartu */
+    justify-content: center !important;
+    gap: 40px !important;
     box-sizing: border-box !important;
 }
 
@@ -3127,8 +3127,8 @@ section::before {
     flex: 0 0 360px !important;
     max-width: 360px !important;
     margin-left: 0 !important;
-    margin-right: auto !important; /* Hilangkan dorongan margin kanan */
-    transform: translateX(-40px) !important; /* Geser kartu 40px lebih masuk ke kiri */
+    margin-right: auto !important;
+    transform: translateX(-40px) !important;
 }
 
 /* 4. Ukuran Kartu Utamanya */
